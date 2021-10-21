@@ -1,0 +1,43 @@
+<!-- <div class="jumbotron">
+    <div class="container">
+        <div class="container">
+            <h3>Update User Data</h3>
+            <div class="col-xs-12">
+                <form [formGroup]="userUpdateForm" (ngSubmit)="onSubmit()">
+                    <!-- //<div class=formGroupName="userData"></div> -->
+                     <div class="form-group">
+                       
+                        <label for="Name">Name: </label>
+                        <input type="text" id="Name" formControlName="Name"  class="form-control">
+                        <span *ngIf="!userUpdateForm.get('Name').valid && userUpdateForm.get('Name').touched">
+                            Please enter  Name!!
+                        </span>
+                    </div>
+                    <div class="form-group">
+                        <label for="Age">Age: </label>
+                        <input type="text" id="Width" formControlName="Age" class="form-control">
+                        <span *ngIf="!userUpdateForm.get('Age').valid && userUpdateForm.get('Age').touched">
+                            Please enter Age!!
+                        </span>
+                    </div>
+                    <div class="form-group">
+                        <label for="City">Age: </label>
+                        <input type="text" id="City" formControlName="City" class="form-control">
+                        <span *ngIf="!userUpdateForm.get('City').valid && userUpdateForm.get('City').touched">
+                            Please enter City!!
+                        </span>
+                    </div>
+                    <div class="form-group">
+                        <label for="Email">Email: </label>
+                        <input type="text" id="Email" formControlName="Email" class="form-control">
+                        <span *ngIf="!userUpdateForm.get('Email').valid && userUpdateForm.get('Email').touched">
+                            Please enter City!!
+                        </span>
+                    </div>
+                    <button class="btn btn-primary" type="submit"> Submit</button>
+                    
+                </form>
+            </div>
+        </div>
+    </div>
+</div>  -->
